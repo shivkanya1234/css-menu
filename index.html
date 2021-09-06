@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                background-image: url("img/bg.png");
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 0.8em;
+            }
+
+            .headernav1 {
+                width: 1280px;
+                height: 50px;
+                background: #333;
+                margin: 20px auto;
+            }
+
+            .headernav1>ul {
+                ...
+            }
+
+            .headernav1>ul>li:hover>a {
+                background: #ff6347;
+            }
+
+            .headernav1>ul>li {
+                float: left;
+            }
+
+            .headernav1>ul>li>a {
+                display: inline-block;
+                height: 12px;
+                padding: 19px;
+                color: #fff;
+                text-decoration: none;
+            }
+            .active {
+                background: #ff6347;
+            }
+            .ufoimg {
+                background-image: url(img/bg.png);
+                background-repeat: no-repeat;
+                background-size: 15px 15px;
+                background-position: 0px 15px;
+            }
+
+            .submenu2 {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                list-style: none;
+                padding-left: 0px;
+                display: none;
+            }
+
+            .menu>li {
+                position: relative;
+
+
+            }
+
+            .submenu2>li>a {
+                display: block;
+                width: 224px;
+                height: 60px;
+                padding-left: 26px;
+                line-height: 60px;
+                background: #fff;
+                color:#55555a;
+
+            }
+
+            .submenu .fa-chevron-left {}
+
+            .menu>li>.submenu2>li>a:hover {
+                background: #ff6347;
+                color: #fff;
+            }
+
+            .submenu2 {
+                width: 250px;
+                height: 300px;
+                background: #fff;
+                background: blue;
+                position: absolute;
+                top: 0px;
+                left: 250px !important
+            }
+
+            .menu>li>.submenu>li>a:hover {
+                background: #ff6347;
+                color: #fff;
+            }
+
+            .submenu2 {
+                width: 250px;
+                height: 300px;
+                background: #fff;
+                background:blue ;
+                position:absolute;
+                top: 0px;
+                left: 250px !important;
+            }
+
+            .submenu>li {
+                position: relative;
+            }
+
+            .menu li:hover>.sybmenu {
+                display: block;
+            }
+
+            .menu li:hover>a {
+                background: #ff6347;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="headernav1">
+            <ul class="menu">
+                <li>
+                    <a href="#" class="ufoimg">Company Logo</a>
+
+                </li>
+                <li>
+                    <a href="#" class="active">Active</a>
+                </li>
+                <li>
+                    <a href="#">Drop Down <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+
+                </li>
+                <li>
+                    <a href="#">Item one</a>
+                </li>
+                <li>
+                    <a href="#">Items Right Side <i class="fas fa-chevron-left"></i></a>
+                    <ul class="submenu submenu1">
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Item 2</a>
+                </li>
+                <li>
+                    <a href="#">Item left side <i class="fas fa-chevron-left"></i></a>
+                </li>
+                <li>
+                    <a href="#">Item 4</a>
+                </li>
+            </ul>
+            </li>
+            <li>
+                <a href="#">Mega Menu <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Grid <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Tab Bar <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Images <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Contact <i class="fas fa-chevron-down"></i></a>
+            </li>
+
+
+            </ul>
+        </nav>
+
+    </body>
+
+</html>
